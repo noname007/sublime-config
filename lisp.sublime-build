@@ -1,0 +1,5 @@
+{
+ "cmd": ["clisp.exe","$file"],
+ "file_regex":"lisp$",
+ "selector":"source.lisp"
+}
