@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @company Sevenga
+ * @Zhen Yang <yz0437@gmail.com>
+ * @copyright  2015
+ * @${1:}
+ */
+ ${2}
+]]></content>
+	<tabTrigger>authorinfo</tabTrigger>
+</snippet>
