@@ -3,13 +3,13 @@
   "button": "button1",
   "count": 1,
   "press_command": "drag_select",
-  "modifiers": ["ctrl"],
+  "modifiers": ["alt"],
   "command": "navigate_to_definition"
  },
  {
   "button": "button2",
   "count": 1,
-  "modifiers": ["ctrl"],
+  "modifiers": ["alt"],
   "command": "jump_prev"
  }
 ]
