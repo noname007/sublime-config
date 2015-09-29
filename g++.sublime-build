@@ -1,0 +1,18 @@
+// http://www.cnblogs.com/snake-hand/archive/2013/06/12/3132872.html
+{
+    //"cmd": ["g++","${file}","-std=c++11" ,"-o", "${file_path}/${file_base_name}" ,"-I","C:\cygnus\cygwin-b20\H-i586-cygwin32\bin],
+    "cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c, source.c++",
+    
+
+
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["${file_path}/${file_base_name}"]
+        }
+    ]
+}
